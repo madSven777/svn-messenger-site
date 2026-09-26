@@ -1,0 +1,4 @@
+:root{color-scheme:light dark}
+body{font:16px/1.6 -apple-system,system-ui,sans-serif;max-width:720px;margin:0 auto;padding:24px 16px;color:#1c1c1e;background:#fff}
+@media(prefers-color-scheme:dark){body{color:#f2f2f7;background:#1c1c1e}a{color:#6cb6ff}}
+h1{font-size:1.8rem}h2{margin-top:2rem;font-size:1.2rem}
