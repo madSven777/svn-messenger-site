@@ -6,6 +6,9 @@
 <li><strong>Compte</strong> : adresse e-mail et mot de passe (ou identifiant Sign in with Apple), pseudo et avatar emoji.</li>
 <li><strong>Messages</strong> : texte, style (couleur, gras, italique), type (message, Wizzz, animation) et date/heure d'envoi et de lecture, échangés avec vos contacts.</li>
 <li><strong>Contacts dans l'app</strong> : la liste de vos relations SVN et vos réglages (par exemple couper les Wizzz d'un contact). Nous n'accédons pas au carnet d'adresses de votre téléphone.</li>
+<li><strong>Groupes d'amis</strong> : nom, image et thème du groupe, liste de ses membres et messages échangés dans le groupe. Ils sont visibles uniquement par les membres du groupe, qui peuvent modifier le nom, l'image et le thème. Quitter un groupe vous retire l'accès ; un groupe sans membre est supprimé avec ses données. Les membres peuvent être signalés.</li>
+<li><strong>Idées proposées</strong> : le texte que vous nous envoyez volontairement via « Proposer une idée », associé à votre compte, uniquement pour améliorer l'app.</li>
+<li><strong>Pourboires facultatifs</strong> : si vous choisissez de soutenir l'app, le paiement est géré entièrement par Apple (achat intégré). Nous ne recevons ni vos données de paiement ni votre identité d'acheteur, et un pourboire ne débloque aucune fonction.</li>
 <li><strong>Notifications</strong> : jeton d'appareil Apple (APNs) pour vous envoyer les notifications push.</li>
 <li><strong>Caméra</strong> : utilisée uniquement en local pour l'effet webcam rétro. Aucune image n'est envoyée ni enregistrée.</li>
 </ul>
@@ -14,7 +17,7 @@
 <h2>Hébergement et sous-traitants</h2>
 <p>Les données sont stockées chez Supabase (base de données et authentification) et les notifications transitent par Apple Push Notification service.</p>
 <h2>Sécurité</h2>
-<p>Toutes les communications entre l'app et nos serveurs sont chiffrées en transit (TLS). Les données sont stockées chez Supabase sur des serveurs protégés, avec des règles d'accès strictes : seuls vous et votre contact pouvez lire vos conversations dans l'app. Les notifications push ne contiennent jamais le texte de vos messages. Les messages ne sont pas chiffrés de bout en bout : le chiffrement de bout en bout est prévu dans une prochaine version.</p>
+<p>Toutes les communications entre l'app et nos serveurs sont chiffrées en transit (TLS). Les données sont stockées chez Supabase sur des serveurs protégés, avec des règles d'accès strictes : seuls vous, votre contact ou les membres du groupe concerné pouvez lire vos conversations dans l'app. Les notifications push ne contiennent jamais le texte de vos messages. Les messages ne sont pas chiffrés de bout en bout : le chiffrement de bout en bout est prévu dans une prochaine version.</p>
 <h2>Signalement et blocage</h2>
 <p>Vous pouvez bloquer ou signaler un contact depuis l'app. Un signalement (motif et identifiants du signalant et du signalé) est transmis à l'éditeur pour modération.</p>
 <h2>Conservation et suppression</h2>
